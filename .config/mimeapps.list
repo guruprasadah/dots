@@ -1,3 +1,4 @@
 [Added Associations]
 application/x-shellscript=geany.desktop;
 text/x-csrc=geany.desktop;
+image/png=org.gnome.gThumb.desktop;

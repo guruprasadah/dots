@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+file=$(fzf)
+
+nohup setsid xdg-open $file & > /dev/null
+exit

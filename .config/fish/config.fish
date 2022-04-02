@@ -7,3 +7,6 @@ end
 
 set -x FZF_DEFAULT_COMMAND find .
 
+function nev
+ echo "never gonna give you up"1
+end

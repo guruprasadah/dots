@@ -1,0 +1,14 @@
+super + Return
+	kitty
+
+super + d
+	launcher_text
+
+super + Up
+	berryc window_raise
+
+super + n
+	kitty
+	berryc window_resize 500 700
+	berryc window_center
+	

@@ -57,7 +57,9 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Shift+f exec dashboard
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id bash -c launcher_text
+bindsym $mod+d exec kitty --class "fzfmenu" fzf_run; [class="fzfmenu"] focus
+bindsym $mod+f exec kitty --class "fzfmenu" fzf_file; [class="fzfmenu"] focus
+for_window [instance="fzfmenu"] floating enable
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -97,7 +99,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen toggle
+bindsym $mod+g fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -207,3 +209,5 @@ client.focused_inactive     #1C1C53 #1C1C53 #1C1C53 #1C1C53
 
 
 for_window [class="^.*"] border pixel 5
+for_window [class="fzfmenu"] move absolute position center
+for_window [class="fzfmenu"] resize set 500 700
