@@ -1,0 +1,22 @@
+# GIMP action-history
+
+(history-item "edit-paste-as-new-image-short" 0)
+(history-item "image-new" 0)
+(history-item "file-open-as-layers" 0)
+(history-item "file-export-as" 1)
+(history-item "layers-edit" 0)
+(history-item "layers-new" 0)
+(history-item "edit-copy" 0)
+(history-item "file-quit" 0)
+(history-item "file-open" 0)
+(history-item "tools-scale" 0)
+(history-item "tools-bucket-fill" 1)
+(history-item "windows-show-display-next" 0)
+(history-item "tools-paintbrush" 0)
+(history-item "edit-paste-as-new-layer" 0)
+(history-item "layers-alpha-remove" 0)
+(history-item "image-resize" 0)
+(history-item "layers-alpha-add" 0)
+(history-item "file-save" 1)
+
+# end of action-history

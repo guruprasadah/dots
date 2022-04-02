@@ -1,0 +1,12 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+end
+function fish_greeting
+	sf
+end
+
+
+
+You can put the user-specific fish configuration, including set directives, in ~/.config/fish/config.fish. The contents should look more or less like that
+
+set -x PERL5LIB /home/iaco/workspace/perl:/home/iaco/devtools
