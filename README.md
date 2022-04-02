@@ -12,3 +12,5 @@
 | Fetch          | sf (*lol neofetch bloat*)                                       |
 
 Now, for some eyecandy:
+
+![alt text](https://github.com/guruprasadah/dots/blob/master/assets/busy-screeenshot.png?raw=true)
