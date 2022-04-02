@@ -13,4 +13,8 @@
 
 Now, for some eyecandy:
 
-![alt text](https://github.com/guruprasadah/dots/blob/master/assets/busy-screeenshot.png?raw=true)
+![busy](https://github.com/guruprasadah/dots/blob/72b2a6b47a82f04518ee85e95a95a5ba61eccc07/assets/busy-screeenshot.png)
+
+| ![busy](https://github.com/guruprasadah/dots/blob/master/assets/home-image.png?raw=true) | ![busy](https://github.com/guruprasadah/dots/blob/master/Pictures/walls/nagisa-best.png?raw=true) |
+|------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+
