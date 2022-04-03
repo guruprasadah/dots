@@ -58,6 +58,7 @@ bindsym $mod+Shift+f exec dashboard
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec kitty --class "fzfmenu" fzf_run; [class="fzfmenu"] focus
+bindsym $mod+q exec kitty --class "fzfmenu" fzf_power; [class="fzfmenu"] focus
 bindsym $mod+f exec kitty --class "fzfmenu" fzf_file; [class="fzfmenu"] focus
 for_window [instance="fzfmenu"] floating enable
 # A more modern dmenu replacement is rofi:

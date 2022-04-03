@@ -1,0 +1,11 @@
+
+#!/bin/sh
+
+    
+case "$(echo -e "Shutdown\nRestart\nLogout\nSuspend\nLock" | fzf)" in
+        Shutdown) exec systemctl poweroff;;
+        Restart) exec systemctl reboot;;
+        Logout) kill -HUP $XDG_SESSION_PID;;
+        Suspend) exec systemctl suspend;;
+        Lock) exec systemctl --user start lock.target;;
+esac
